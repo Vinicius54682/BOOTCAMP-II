@@ -115,6 +115,7 @@ botoesExemplo.forEach(function (botao) {
         campoBusca.value = pokemon;
 
         buscarPokemon(pokemon);
+        console.log("SCRIPT FUNCIONANDO");
 
     });
 
