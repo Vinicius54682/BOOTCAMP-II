@@ -45,6 +45,10 @@ formBusca.addEventListener("submit", async function (event) {
                 <h2>Pokémon não encontrado</h2>
                 <p>Verifique o nome ou número informado e tente novamente.</p>
             </div>
+        `;
+    }
+});
+
 const botoesExemplo = document.querySelectorAll(".example-button");
 
 botoesExemplo.forEach(function (botao) {
@@ -58,4 +62,3 @@ botoesExemplo.forEach(function (botao) {
         );
     });
 });
-
