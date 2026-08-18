@@ -95,8 +95,7 @@ async function buscarPokemon(pokemon) {
     }
 }
 
-
-formBusca.addEventListener("submit", function (event) {
+formBusca.addEventListener("submit", function(event) {
     event.preventDefault();
 
     const pokemon = campoBusca.value;
@@ -104,19 +103,17 @@ formBusca.addEventListener("submit", function (event) {
     buscarPokemon(pokemon);
 });
 
+botoesExemplo.forEach(function(botao) {
 
-
-botoesExemplo.forEach(function (botao) {
-
-    botao.addEventListener("click", function () {
+    botao.addEventListener("click", function() {
 
         const pokemon = botao.dataset.pokemon;
 
         campoBusca.value = pokemon;
 
         buscarPokemon(pokemon);
-        console.log("SCRIPT FUNCIONANDO");
-
     });
 
 });
+
+console.log("SCRIPT FUNCIONANDO");
