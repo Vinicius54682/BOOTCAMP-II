@@ -1,3 +1,5 @@
+console.log("ESTOU LENDO O SCRIPT NOVO");
+
 const formBusca = document.getElementById("form-busca");
 const campoBusca = document.getElementById("campo-busca");
 const resultado = document.getElementById("resultado");
