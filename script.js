@@ -76,6 +76,42 @@ async function buscarPokemon(pokemon) {
 
                     </div>
 
+                    <div class="battle-stats">
+
+                        <h3>Status</h3>
+
+                        <div class="battle-stat">
+                            <span>❤️ HP</span>
+                            <strong>${dados.stats[0].base_stat}</strong>
+                        </div>
+
+                        <div class="battle-stat">
+                            <span>⚔️ Ataque</span>
+                            <strong>${dados.stats[1].base_stat}</strong>
+                        </div>
+
+                        <div class="battle-stat">
+                            <span>🛡️ Defesa</span>
+                            <strong>${dados.stats[2].base_stat}</strong>
+                        </div>
+
+                        <div class="battle-stat">
+                            <span>🔮 Ataque Especial</span>
+                            <strong>${dados.stats[3].base_stat}</strong>
+                        </div>
+
+                        <div class="battle-stat">
+                            <span>🛡️ Defesa Especial</span>
+                            <strong>${dados.stats[4].base_stat}</strong>
+                        </div>
+
+                        <div class="battle-stat">
+                            <span>⚡ Velocidade</span>
+                            <strong>${dados.stats[5].base_stat}</strong>
+                        </div>
+
+                    </div>
+
                 </div>
 
             </div>
